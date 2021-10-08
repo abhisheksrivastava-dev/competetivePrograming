@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// swap also a inbuild function in c++
 void swap(int &a, int &b){
 	int temp = a;
 	a = b;
