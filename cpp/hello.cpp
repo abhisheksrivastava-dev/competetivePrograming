@@ -1,8 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void Q(int z){
+    z += z;
+    cout <<z << " ";    
+}
+
+
+void P(int *y){
+    int x =*y +2;
+    Q(x);
+    *y = x-1;
+    cout <<x << " ";    
+}
 int main(){
-    int n;
-    cin >> n;
-	cout << "hello world " << n << endl;
+   int x =5;
+   P(&x);
+   cout << x;
+   
 }
